@@ -7,3 +7,6 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+
+# learned on-screen template sizes (machine-specific)
+screen-watcher/templates/.learned_scales.json
