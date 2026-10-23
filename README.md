@@ -65,8 +65,8 @@ This repo has two independent methods. Pick the one that fits your machine.
 ### Windows
 
 ```bash
-git clone https://github.com/KenThorburn/cursor-approval-alert.git
-cd cursor-approval-alert/screen-watcher
+git clone https://github.com/kthorburn/Cursor-Screenviewer-Notifications.git
+cd Cursor-Screenviewer-Notifications/screen-watcher
 pip install -r requirements.txt
 python screen_watcher.py
 ```
@@ -83,7 +83,7 @@ The included templates match Cursor's default dark theme on Windows. Press **Ctr
 3. Install and run. The bundled templates come from Windows, and size differences are handled automatically. If a button still isn't detected (for example, because of a different theme or font rendering), capture your own on the Mac.
 
 ```bash
-cd cursor-approval-alert/screen-watcher
+cd Cursor-Screenviewer-Notifications/screen-watcher
 pip3 install -r requirements.txt
 python3 screen_watcher.py
 
@@ -133,8 +133,8 @@ Every PNG in `templates/` is loaded automatically, so you can capture as many bu
 ### Install
 
 ```bash
-git clone https://github.com/KenThorburn/cursor-approval-alert.git
-cd cursor-approval-alert/cursor-hooks
+git clone https://github.com/kthorburn/Cursor-Screenviewer-Notifications.git
+cd Cursor-Screenviewer-Notifications/cursor-hooks
 python3 cursor_hooks.py --test      # hear the alert (and see a notification on macOS)
 python3 cursor_hooks.py --install   # add the hooks to ~/.cursor/hooks.json
 ```
@@ -192,7 +192,7 @@ Not yet. This project currently targets Cursor only. See the roadmap below.
 
 ### Request an IDE
 
-Want support for your editor or agent? [Open an issue](https://github.com/KenThorburn/cursor-approval-alert/issues/new) titled **"IDE request: \<name\>"** and, if you can, attach a screenshot of its approval button. Requests with the most 👍 reactions are prioritized.
+Want support for your editor or agent? [Open an issue](https://github.com/kthorburn/Cursor-Screenviewer-Notifications/issues/new) titled **"IDE request: \<name\>"** and, if you can, attach a screenshot of its approval button. Requests with the most 👍 reactions are prioritized.
 
 ## Contributing
 
